@@ -172,7 +172,7 @@ def main():
         print('7. Model training')
         history_BERT = classifier.fit(X_train, y_train,
                                       validation_data=(X_valid, y_valid),
-                                      batch_size=32, epochs=300, callbacks=[early_stopping, reduce_lr])
+                                      batch_size=32, epochs=15, callbacks=[early_stopping, reduce_lr])
 
         # -- 8. Plot results --
         print('8. Plot results')
