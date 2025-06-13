@@ -1,0 +1,8 @@
+# Dependencies
+numpy
+pandas
+tensorflow
+scikit-learn
+nltk
+keras-nlp
+matplotlib
