@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 import os
 
 # Variables definition
-INPUT_PATH = '/kaggle/input/nlp-getting-started/'  # o './'+
-OUTPUT_PATH = '/kaggle/working/'  # o './'
+INPUT_PATH = '/kaggle/input/nlp-getting-started/' # Original route from Kaggle.
+OUTPUT_PATH = '/kaggle/working/' # Original route from Kaggle.
 
 # Functions definition
 def preprocessing(data: pd.DataFrame) -> pd.DataFrame:
